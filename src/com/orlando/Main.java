@@ -19,7 +19,11 @@ public class Main {
 		System.out.println();
 		System.out.println("Factorial of 4 : " + RecursiveMath.factorial(4));
 		System.out.println("Factorial of 8 : " + RecursiveMath.factorial(8));
-
+		
+		System.out.println();
+		System.out.println("Exponent: 4 to the power of 3 : " + RecursiveMath.exponentCalculation(4, 3));
+		System.out.println("Exponent: 5 to the power of 12 : " + RecursiveMath.exponentCalculation(5, 12));
+		System.out.println("Exponent: 5 to the power of 12 : " + RecursiveMath.exponentCalculation(12, 10));
 	}
 
 }

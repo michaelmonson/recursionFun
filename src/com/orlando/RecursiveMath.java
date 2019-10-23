@@ -35,5 +35,23 @@ public class RecursiveMath {
 		}
 	}
 	
+	
+	/**
+	 * Perform recursion to calculate the result of exponentiation of any
+	 * number to the power of any exponent.
+	 * @param number
+	 * @param power
+	 * @return
+	 */
+	public static int exponentCalculation(int number, int power) {
+		
+		if (power <= 1) {
+			return number;
+			
+		} else {
+			return number * exponentCalculation(number, power - 1);
+		}
+	}
+	
 
 }
